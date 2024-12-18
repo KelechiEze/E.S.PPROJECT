@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "takeover-444211",
+  "private_key_id": "7fdbc238845e5a0e44da492f8c13a06ebfc516ef",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCmfvKU/H4ZgMRZ\n8zGhipWBfYvU3THHo2jSUC8uGxqM4KbXYOR3jLszQvVlQhpPDga1KrHm3RNO8dK6\nOat3zGPdw1xwyFnkGgJy17kx6D91a2km3btOwtqX7ijkeEj+qRG5wqicBy78OnZ9\n/fa7uOPzJja08fQ/OmxpUE3HTQyz/nXk+Mw91gyA3sqzGIlyv0K1+9F+rLeYOYZQ\nCFhGbz/q3PcDe6SMP3c9ckUpKu6E++ZSY6+0jCdbgrHnwWWCGXicZxEWkR1bdIXm\nVRJ3T1i6a3yKcrl5M1K6W8I/bchtyN0eVl2/mp8aKGewXh6EEjkgVg8K+oa3huvY\njlndLLqDAgMBAAECggEAG9vmD1PobbAEKuDsjxE3TwGI4kdYywTmxzovitFyMdxt\nTmCiGfbsY/lyQk07RbsdGDdaqTyYvH7uOcbokBUdKMBFuYFsuSQ5AKpkDJvF8onU\ngHJdoyIrnXx2TzRpUmNL2f9eYy04iW/m39Ic9PBNBCSCxugtbF8EQOL1AMI9u+g0\n91avAFWPXkUnQSY6mxiFSbIKDPY1t2Gb//5ayqNwYNKaHFWVCM132erpnqOJEq4V\nA0mqr6C4R64nPhAQHwv2fNjG+PA4muWsQq1vqZtcTE0qsuZ+Ficz8A9szjjSMCBj\naU9NJ25zg54qymA9sSHHl3XmB7CDmXqG4LJKk6xjwQKBgQDZVYejXJjXjzAJVbB2\nmDdvsBdHq5FacXXCAueWS9KeEFj+D8sfkyDE2BGYoUOJaSLhggmVJoOQmnGvqRbS\nhQB3FcuNl4OEo0sKNmfLvJwSNENPdPBR/XQmDYnlvH5XZpD41QAQqHZ4fvSTrrH0\nPxFbLgn7LMlqhhecaj856dpgUQKBgQDEHf57T2nxS2h/kmlXCVWHzP5dHoE5oUte\nSxytaYqWFObK/MEn3V/cSoNgEEH61nyIlkz8CUL/+8rEDImnUcp8EUsSR76brnGv\naUrVq0TPSUk1iIZxdb2JyqteaR/lW2LzU99TJJjaaC2P65BuB/IMp2svVMVp1p7J\nE2xqj8GskwKBgQDTUmLs6WCEWOowaW2II0HkC6jXO2++LYx+9SwR6/ADWYnun5S2\nQu0d+apCaqustNoBw9tld2l99W6NizBxynlFUZ/3MVfkZJLWf0g1xlNLMB4y6FW0\no2mIhqmLBNkkSsqz6QiDKgrn5yoRX1ARWjGaIw35ePbv6SqUIIsR2N1JwQKBgQCs\nxRu2eByF1P/HOy2P3oo5646+bCw9n+mstREbeBn944X6lzZ2ryBPClm4XDo0B5aI\nIZjKhEJBDwnvMnhmLbjrGbT/8rJppgFDHcguegZRcmeLQK3n8Gi8pg3YS1YtERgX\n8vCP53K9Hf/dhRGkzV0gZrEXbl/HwKn7zB+7tM9S/wKBgQCXtu3TfajmjMqM1jMb\nCykICN8F8NBC2dVdHg7fY/99paj9GsuzLVfTmEBpZQDhUTw6o5nxJYM97ZgjJjJX\nAY2iviWifseBTFW390ypNWrwAhVMQ4Dp5Pf9a7X8+u0lkWFs76qG0VbQAqoHd+cs\n7scve24s8vHbL67s6RWiHAT/vQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "takeoveremailsend@takeover-444211.iam.gserviceaccount.com",
+  "client_id": "105254783742627836738",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/takeoveremailsend%40takeover-444211.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
