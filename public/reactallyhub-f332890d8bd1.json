@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "reactallyhub",
+  "private_key_id": "f332890d8bd18c9469aa690331a64047d2b18e85",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCqEohBzC4/ttkQ\nYHsPPIQXkwUWFxHtPrEj5Z/yKZtKFDoLcaXvZVXP6eYdTMdaccLkA5vWnwXm8GiK\nzIZr5SC9NNjlmB8OubQCtCCcdkev7/OEyjqf4JGlK4CGNfeJ1JSwU2BTb98OM4nG\nSQBibPQgi6+9G4DI4VOMimJC03N/1TgRaa+7AE8iuhUsndtJzyf/yantwVbWXv5c\ngnXZeTQas/BkR6nf2blP+eagklaCTCsJeYvUZiL6lD5Rt9Bm/4+tcivoD6LVCVDz\nuB9rBXrS87YcTcCxKPRGQbIU6rGD4pJNwJ6++uXPi7ufAhsqWJgnH3eggPx+z8al\nnRfIQaVPAgMBAAECggEARZjN37cxmes2isggs8x89bS5WR/Zuy9ziBAY0x2Jqdf7\nJOG+GOhsJGhAPe9EiVOSgIKljD+JR8dL0Lj/rTmXmzX8KICG/RyreIvD6KNSlMHp\n8oZbVT+t+lyB/OoqwWGX80w7WAmoywP2Nol7OcwCXysqoIWXvxzOdu3OZjBnzICG\nvDRf4ri3xEN0CJBgQwYCL6Ae7TEGmva+ZM+huMUCFPLZ9BIMrsF6lcOUtiK95Q/N\nn34L4Woylsq/PWeYAN8wEYl16n3xc+Vybkl5aoDyAvwpb/QC/0CSwvA5yxV3ko9C\nAvplSYNjejW85enBgfPIIeKlYCaaBAIT+kh2aw02UQKBgQDaW12ndO5saFIJCf6C\nbH6WLcVU8lq8h/KRGoW2k0vHIJ8cFQWQSe5h9n1vDtOKdnq3SlFkp0flblRrURv1\nEslEFJOHQJMsAgETI36aCbsfp3m0noJnj4qTrGos/oAHz0fEmpzr4b+ouiTSNDKd\n+Gq05pc2krs+weEPI6ZK9xBAqQKBgQDHZEA0/kqtMoPXSpXewUlhPzlGghQLwR5c\nSkg1ZUAi4DRIWFhwTt7tyKuWqWAk1Jm6iurqT1aAW1DmmQhRa8wQdzAvkee8l/6R\nmyccUqJ8C4uaiGeUUf1aytulZWJEJDPSTtde3Wp1zA1zWkWBVy61zyweZWjctQ57\n+onLK6FZNwKBgCJrwrCyGx+VtlDcdXVj2vSblH7WkX0kxRUgpDFquMhUGSDZI35i\nWSSyMYW/RZOPJ7sbCQef4xKEuOQN7iVM59NGlxb8E/cc/cRhlQR9QjU0NlhFoHLo\nysSKqlYbbF1OzJZudQwuEwNrDIDiX5RNY6zOqMmeicvTzkGPshghKDu5AoGAQOE5\nF0VLbVILnmlRnPsN8ovNCklXVn/Pbj5pgp5goTiNKqE8nca8OWlblBmnBDT9lLqR\nOA762addCrvu/fdynkT6M/BpFG/s0NpIfqnQ30Yudek+sv9+ziVGFWqI8B1Lk3o+\nEEtB0fTEx60vAqgotdYkx/s9hNuRS/w5DBg1Vz8CgYAmTRjoXaBOCZxzCwh/CnAm\n6PDyznTuaHoGVBNmDLdZ/k+6r4Xv9WT0tfAmDVOis7IB72QnjBshsF2yulkPeGrr\nbwojlx9QOlwPgxVlN7LgC/GdpsE8OJhSrJzZwJJAq9HX0Q0zX+vrFGDKErOAPZ7Q\n+XjvWxlgoT+HHpw5OT3Zhg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "allyhubemailz@reactallyhub.iam.gserviceaccount.com",
+  "client_id": "114831373378767929808",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/allyhubemailz%40reactallyhub.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

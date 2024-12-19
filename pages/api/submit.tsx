@@ -77,10 +77,12 @@ export default async function handler(
             data: response.data,
             message: "Data added successfully!",
         });
-    } catch (e: any) {
-        console.error("Error adding data to Google Sheets:", e.message);
+    } catch (error) {
+        const error2 = error as Error;
+        console.error("Error adding data to Google Sheets:", error2.message);
         return res
             .status(500)
-            .json({ message: e.message ?? "Something went wrong" });
+            .json({ message: error2.message ?? "Something went wrong" });
     }
+    
 }

@@ -1,27 +1,28 @@
+import type { NextPage } from 'next';
 import { useState, FormEvent } from 'react';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'; // Import framer-motion
 import '../styles/globals.css';
 
 const Home: NextPage = () => {
-    // State variables
+    // Parent/Guardian Details State
     const [parentName, setParentName] = useState('');
     const [relationship, setRelationship] = useState('');
     const [parentContact, setParentContact] = useState('');
     const [parentAddress, setParentAddress] = useState('');
     const [occupation, setOccupation] = useState('');
     const [annualIncome, setAnnualIncome] = useState('');
+
+    // Child Details State
     const [childName, setChildName] = useState('');
     const [dob, setDob] = useState('');
     const [gender, setGender] = useState('');
     const [schoolName, setSchoolName] = useState('');
     const [schoolAddress, setSchoolAddress] = useState('');
     const [grade, setGrade] = useState('');
-    const [isLoading, setIsLoading] = useState(false); // Loading state
 
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 
-        // Validate input fields
         if (
             !parentName ||
             !relationship ||
@@ -34,13 +35,13 @@ const Home: NextPage = () => {
             !gender ||
             !schoolName ||
             !schoolAddress ||
-            !grade
+            !grade 
+ 
         ) {
             alert('Please fill out all fields before submitting the form.');
-            return;
+            return; // Stop form submission
         }
-
-        setIsLoading(true); // Show spinner
+    
 
         const formData = {
             parentName,
@@ -86,20 +87,27 @@ const Home: NextPage = () => {
             setSchoolName('');
             setSchoolAddress('');
             setGrade('');
+
+            console.log('Form submitted:', formData);
         } catch (error) {
             console.error('Error submitting form:', error);
             alert('An error occurred. Please try again.');
-        } finally {
-            setIsLoading(false); // Hide spinner
         }
+    };
+
+    // Animation variants
+    const fadeInVariants = {
+        hidden: { opacity: 0, y: 30 },
+        visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
     };
 
     return (
         <main className="bg-gray-100 min-h-screen">
             <motion.div
                 className="max-w-5xl mx-auto py-16"
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0, transition: { duration: 0.8 } }}
+                initial="hidden"
+                animate="visible"
+                variants={fadeInVariants}
             >
                 {/* Logo */}
                 <div className="flex justify-center mb-6">
@@ -114,7 +122,7 @@ const Home: NextPage = () => {
                 <form className="py-4 space-y-4" onSubmit={handleSubmit}>
                     {/* Parent/Guardian Details */}
                     <h2 className="text-xl font-semibold text-center">Parent/Guardian Information</h2>
-                    <div style={{ justifyItems: 'center' }}>
+                    <div style={{justifyItems: 'center'}}>
                         <input
                             value={parentName}
                             onChange={(e) => setParentName(e.target.value)}
@@ -126,7 +134,7 @@ const Home: NextPage = () => {
                             value={relationship}
                             onChange={(e) => setRelationship(e.target.value)}
                             className="input-field"
-                            style={{ color: 'grey' }}
+                            style={{color: 'grey'}}
                         >
                             <option value="" disabled>
                                 Relationship to child
@@ -166,8 +174,8 @@ const Home: NextPage = () => {
                     </div>
 
                     {/* Child Details */}
-                    <h2 className="text-xl font-semibold text-center">Child Information</h2>
-                    <div style={{ justifyItems: 'center' }}>
+                    <h2 className="text-xl font-semibold text-left text-center">Child Information</h2>
+                    <div style={{justifyItems: 'center'}}>
                         <input
                             value={childName}
                             onChange={(e) => setChildName(e.target.value)}
@@ -188,7 +196,7 @@ const Home: NextPage = () => {
                             value={gender}
                             onChange={(e) => setGender(e.target.value)}
                             className="input-field"
-                            style={{ color: 'grey' }}
+                            style={{color: 'grey'}}
                         >
                             <option value="" disabled>
                                 Gender
@@ -219,39 +227,14 @@ const Home: NextPage = () => {
                             className="input-field"
                         />
                     </div>
-
-                    {/* Submit Button with Spinner */}
+                
                     <div className="flex items-center justify-center">
                         <button
                             type="submit"
                             className="flex items-center justify-center text-sm w-80 rounded-md shadow py-3 px-2 text-white bg-indigo-500"
                             style={{ backgroundColor: '#FE7E36' }}
-                            disabled={isLoading}
                         >
-                            {isLoading ? (
-                                <svg
-                                    className="animate-spin h-5 w-5 text-white"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                >
-                                    <circle
-                                        className="opacity-25"
-                                        cx="12"
-                                        cy="12"
-                                        r="10"
-                                        stroke="currentColor"
-                                        strokeWidth="4"
-                                    ></circle>
-                                    <path
-                                        className="opacity-75"
-                                        fill="currentColor"
-                                        d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
-                                    ></path>
-                                </svg>
-                            ) : (
-                                'Submit'
-                            )}
+                            Submit
                         </button>
                     </div>
                 </form>
